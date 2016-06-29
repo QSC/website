@@ -4,5 +4,6 @@
 ## License
 
 MIT © [QSC](https://github.com/QSC)
+> Fork away!
 
 # }
