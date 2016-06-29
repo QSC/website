@@ -1,4 +1,5 @@
 # QSC 2017 {
+> To infinity and beyond :rocket:
 
 ## License
 
