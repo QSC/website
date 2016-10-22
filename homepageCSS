@@ -1,4 +1,71 @@
-might need help getting started with this, 
-like putting the background and sizing the website page
-and maybe help with the navigation buttons
-I'll get this started over the weekend of Oct. 22nd
+
+
+body{
+	background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=3457c65cf359e0aee946d980aa8b9508.jpg');
+	background-size: 2000px 1024px;
+	background-repeat: no-repeat;
+}	
+
+.header{
+	width: 100%;
+	height: 150px;
+	background: #ffffff;
+}
+
+.headername{
+    height: 110px;
+    float: left;
+    padding-top: 42px;
+}
+
+.section_header{
+	font-weight: bold;
+	font-variant: small-caps;
+	font-family: "Montserrat";
+	color: #2a3141;
+}
+
+.section_text_sub{
+	font-size:1em;
+	font-variant: small-caps;
+	font-family: "Montserrat";
+	}
+
+.qsc-logo {
+	width:72px;
+	height:130px;
+	padding-top:30px;
+	float:left;
+	margin-right:30px;
+	}
+
+.logo {
+	height: 72px;
+	width: 72px;
+}
+
+	h1{
+		color:white;
+		text-align: center;
+	}
+	h2{
+		color:white;
+		text-align: center;
+	}
+	h3{
+		color:white;
+		text-align: center;
+	}
+	h4{
+		color:white;
+		text-align: center;
+	}
+	h5{
+		color:white;
+		text-align: center;
+	}
+	p{
+		color:white;
+		text-align: center;
+	}
+
