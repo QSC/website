@@ -1,4 +1,19 @@
+html{
+  height: 100vh;
+}
+
+body{
+  margin: 0px;
+  height: 100vh;
+}
+
+p{
+  margin: 0px;
+}
+
 .homepage{
+  display: flex;
+  flex-direction: column;
   width: 100%;
   height: 520px;
   background-image: url('http://www.qsconference.com/images/bg.jpg');
@@ -10,28 +25,53 @@
 }
 
 .header{
+  background-color: deepskyblue;
+}
+
+.headertext{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  order: 2;
   float: left;
   font-size: 24px;
   color: black;
   font-weight: 600;
   margin: 0;
+  letter-spacing: 0.5px;
+}
+
+.logo-container{
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 60px;
+  width: 60px;
 }
 
 .span{
   color: white;
+  margin-left: 4px;
 }
 
 .navigation {
   list-style: none;
-  margin: 0;
-  background: deepskyblue;
+  margin: 0; 
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  -webkit-flex-flow: row wrap;
-  justify-content: right;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 .navigation a {
@@ -39,11 +79,26 @@
   display: block;
   padding: 1.3em;
   color: white;
-  text-align: center;
+  text-align: right;
 }
 
 .navigation a:hover {
   background: #00b7f5;
+}
+
+.landing-page-top{
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing-page-bottom{
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .theme{
@@ -57,6 +112,7 @@
 }
 
 .button {
+  margin-bottom: 20px;
 	font: 400 1.4em;
 	cursor: pointer;
 	background-color: white;
@@ -76,40 +132,123 @@
 
 .next-page{
   padding: 6em 2em;
-  background-color: white;
+  background-color: #f7f6ee;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
+
+.section-title{
+  font-size: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: navy;
+}
+
+.section-subtitle{
+  font-size: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  
+}
+
+.about-paragraphs{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 50%;
+  margin-right: 10px;
+  margin-left: 10px; 
+  color: navy;
 }
 
 .paragraphs{
   text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  display: block;
+  -webkit-margin-after: 1em;
+  -webkit-margin-before: 1em;
+  color: black;
+}
+
+.s-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .subscribe-page{
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;  
-  
-  -webkit-flex-flow: row wrap;
-  flex-flow: row wrap;
-  
-  font-weight: bold;
-  text-align: center;
+ height: 15em;
+ display: flex;
+ flex-direction: row;
+ justify-content: flex-start;
+ background-color: deepskyblue;
 }
 
 .subscribe{
-  background: deepskyblue;
-  width: 50%;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-end;
+ font-size: 50px;
+ text-transform: uppercase;
+ text-align: center;
+ color: white;
+ width: 50%;
+ margin-top: 0px;
+ margin-bottom: 0px;
+}
+
+.subsribe-text{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  justify-content: flex-end;
+  text-align: right;
+  text-transform: lowercase;
+  margin-bottom: 20px;
+
 }
 
 .newsletter{
-  background: #2b3243;
-  width: 50%;
+  display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ background-color: #2b3243;
+ width: 50%
 }
 
-.socialmedia{
-   padding: 6em 2em;
-  background-color: white;
-  text-align: center;
+.text-form{
+   visibility: visible;
+  color: #89999a
 }
+
+.email{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.footer{
+  height: 234px;
+  width: 100%;
+  background-color: #f7f6ee;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+

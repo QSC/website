@@ -11,33 +11,47 @@
 
 	<!-- CSS File -->
 	<link rel="stylesheet" href="home.css"> 
-	</head>
-
+</head>
 
 <body>
+	<header class="header">
+	<div class="logo-container">
+	<a href="#">
+		<img class="logo" src="images/QSC_logo.png">
+	</a>
+	</div>
+	<h1 class="headertext"> 
+		Queen's
+		<span class="span">Space Conference</span>
+	</h1>
 
 	<ul class="navigation"> 
-	<h1 class="header"> 
-		Queen's 
-		<span class="span"> Space Conference </span>
-		</h1>
 		<li><a href="#">Home</a></li>
 		<li><a href="#">Delegates</a></li>  
 		<li><a href="#">Sponsorship</a></li>  
 		<li><a href="#">Speakers</a></li>
+		<li><a href="#">The Team</a></li>
 	</ul>
+	</header>
 	
 		<section class="homepage">
-			<p> presents </p>
-			<h2 class="theme"> The Next Giant Leap </h2>
-			<a href="#"><button class="button"> Learn More </button></a>
-	
+			<section class="landing-page-top">
+				<p> presents </p>
+				<h2 class="theme"> The Next Giant Leap </h2>
+			</section>
+			<section class="landing-page-bottom">
+				<a href="#"><button class="button"> Learn More </button></a>
+			</section>
 		</section>
-		<!-- have some sort of background change to indicate the change of page when scrolling down to this new section-->
+		
 	<div class="next-page">
 		<!-- About section, and a Theme section-->
-		<h3> About Us </h3>
-		<h5> What is the Queen's Space Conference? </h5>
+		<h3 class="section-title"> About Us </h3>
+		<section class="about-section">
+		
+		<section class="about-paragraphs">
+		<h4 class="section-subtitle"> What is the Queen's Space Conference? </h4>
+		
 		<p class="paragraphs">
 			The Queen's Space Conference (QSC), held at Queen's University in Kingston, Ontario, is an annual, non-profit, student-run conference focused on connecting undergraduate students with Space industry leaders. The conference is centered around a series of exciting talks, innovative workshops, and networking opportunities.
 			</p>
@@ -47,22 +61,44 @@
 		<p class="paragraphs">
 			This year, QSC will take place February 3rd to 5th at the Four Points by Sheraton Hotel located within walking distance of downtown Kingston. This promises to be the best space conference yet!
 		</p>
+		</section>
+		
 		<!-- im thinking put this on the left side, and on the right side have the exec video-->
-	
-		<h3> The Next Giant Leap </h3>
-		<p>
+	<section class="about-paragraphs">
+		<h4 class="section-subtitle"> The Next Giant Leap </h4>
+		<p class="paragraphs">
 			... explain the theme
 
 		</p>
+	</section>
+	</section>
 		<!-- some visual about the theme -->
 	</div>
+	<section class="s-page">
 	<div class="subscribe-page">
-		<h3 class="subsribe"> Subsribe now</h3>
-		<p> Subsribe to our newsletter today! </p>
-		<h3 class="newsletter"> email thing </h3>
+	<section class="subscribe">
+		<h3> Subscribe Now</h3>
+	
+		<p class="subsribe-text"> Subsribe to our newsletter today! </p>
+	</section>
+	<section class="newsletter">
+		<form action="inc/subscribe.php" class="email">
+			<input class="text-form" type="text" name="newsletter"  placeholder="Your E-mail Address...">
+		</form>
+	</section>
 	</div>
+	</section>
 	<div class="socialmedia">
-	<p> Ill put our facebook, twitter????, instagram and youtube accounts here </p>
+	<section>
+	<a href="https://www.facebook.com/QSConference/">
+		<img src="images/fb_icon.png">
+	</a>
+	<p> Find Us On Facebook</p>
+	</section>
+	<p> Email Us Today</p>
+	<p> Follow Us On Instagram</p>
+
+
 	</div>
 </body>
 </html>
