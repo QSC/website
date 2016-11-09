@@ -1,5 +1,6 @@
 html{
   height: 100vh;
+  font-family: Arial;
 }
 
 body{
@@ -35,7 +36,7 @@ p{
   order: 2;
   float: left;
   font-size: 24px;
-  color: black;
+  color: #15152b;
   font-weight: 600;
   margin: 0;
   letter-spacing: 0.5px;
@@ -83,7 +84,7 @@ p{
 }
 
 .navigation a:hover {
-  background: #00b7f5;
+  background: #15152b;
 }
 
 .landing-page-top{
@@ -131,7 +132,7 @@ p{
 }
 
 .next-page{
-  padding: 6em 2em;
+  padding: 4em 1em;
   background-color: #f7f6ee;
   text-align: center;
   display: flex;
@@ -145,12 +146,33 @@ p{
 
 }
 
+.logo-container2{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  float: left;
+  margin-right: 0px;
+  margin-left: 20px;
+}
+
+.logo2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 300px;
+  width: 300px;
+  margin-right: 0px;
+
+}
+
 .section-title{
   font-size: 50px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  color: navy;
+  color: #3E2D77;
 }
 
 .section-subtitle{
@@ -169,12 +191,14 @@ p{
   width: 50%;
   margin-right: 10px;
   margin-left: 10px; 
-  color: navy;
+  color: #3E2D77;
+  font-family: Arial;
 }
 
 .paragraphs{
   text-align: left;
   display: flex;
+  font-size: 25px;
   flex-direction: row;
   justify-content: flex-start;
   display: block;
@@ -252,3 +276,44 @@ p{
   flex-direction: row;
 }
 
+.socialmedia{
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons{
+  text-decoration: none;
+  color: #3b5998;
+}
+
+.media{
+  color: gray;
+  font-size: 20px;
+}
+
+.facebook-span{
+  color: #3b5998;
+  font-size: 20px;
+}
+
+.mail{
+  color:deepskyblue;
+  text-decoration: none;
+}
+
+.mail-span{
+  color: deepskyblue;
+  font-size:20px;
+}
+
+.mail-font{
+  color: gray;
+}
+
+.insta-span{
+  color: #551a8b;
+  font-size: 20px;
+}
