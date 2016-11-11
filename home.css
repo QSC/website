@@ -279,7 +279,7 @@ p{
 .socialmedia{
   display: flex;
   flex-direction: column;
-  width: 33%;
+  width: 33.3333%;
   justify-content: center;
   align-items: center;
 }
@@ -316,4 +316,94 @@ p{
 .insta-span{
   color: #551a8b;
   font-size: 20px;
+}
+
+.delegates-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 25%;
+}
+
+.delegates-container2{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  height: 25%;
+}
+
+.delegates-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 50%;
+  height: 100%;
+}
+
+.delegates-sub{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-transform: uppercase;
+  color: gray;
+  font-size: 10px;
+}
+
+.delegates-head{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-transform: uppercase;
+  color: deepskyblue;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.paragraph{
+  text-align: center;
+  display: flex;
+  font-size: 17px;
+  flex-direction: row;
+  justify-content: flex-start;
+  display: block;
+  -webkit-margin-after: 1em;
+  -webkit-margin-before: 1em;
+  color: black;
+}
+
+.apply{
+  height: 250px;
+  width: 100%;
+  background-color: #f7f6ee;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.apply-text{
+  text-transform: uppercase;
+  color: deepskyblue;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.button2 {
+  margin-bottom: 20px;
+  font: 400 1.4em;
+  cursor: pointer;
+  background-color: deepskyblue;
+  color: white;
+  border: 2px;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s
+}
+
+.button2:hover {
+   background-color: white;
+   color: black;
 }
