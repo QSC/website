@@ -1,6 +1,7 @@
 html{
   height: 100vh;
   font-family: Arial;
+  overflow-x: hidden;
 }
 
 body{
