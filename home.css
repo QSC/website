@@ -18,7 +18,7 @@ p{
   flex-direction: column;
   width: 100%;
   height: 100vh;
-  background-image: url('http://www.qsconference.com/images/bg.jpg');
+  background-image: url(images/qsc_background.jpg);
   background-size: cover;
   color: white;
   text-transform: uppercase;
@@ -121,16 +121,16 @@ p{
 
 .button {
   margin-bottom: 20px;
-	font: 400 1.4em;
-	cursor: pointer;
-	background-color: white;
-	color: black;
-	border: 2px;
-	padding: 15px 32px;
-	text-align: center;
-	font-size: 16px;
-	-webkit-transition-duration: 0.4s;
-	transition-duration: 0.4s
+  font: 400 1.4em;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 2px;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s
 }
 
 .button:hover {
@@ -222,7 +222,7 @@ p{
 }
 
 .subscribe-page{
- height: 22em;
+ height: 450px;
  display: flex;
  flex-direction: row;
  justify-content: flex-start;
