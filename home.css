@@ -375,11 +375,12 @@ p{
 
 .apply{
   height: 250px;
-  width: 100%;
+ 
   background-color: #f7f6ee;
   text-align: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .apply-text{
@@ -390,7 +391,7 @@ p{
 }
 
 .button2 {
-  margin-bottom: 20px;
+ 
   font: 400 1.4em;
   cursor: pointer;
   background-color: deepskyblue;
