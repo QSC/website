@@ -1,6 +1,6 @@
 html{
   height: 100vh;
-  font-family: Arial;
+  font-family: 'Lato', sans-serif;
   overflow-x: hidden;
 }
 
@@ -17,7 +17,7 @@ p{
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 520px;
+  height: 100vh;
   background-image: url('http://www.qsconference.com/images/bg.jpg');
   background-size: cover;
   color: white;
@@ -27,7 +27,7 @@ p{
 }
 
 .header{
-  background-color: deepskyblue;
+  background-color: transparent;
 }
 
 .headertext{
@@ -37,10 +37,15 @@ p{
   order: 2;
   float: left;
   font-size: 24px;
-  color: #15152b;
+  color: #8377d8;
   font-weight: 600;
   margin: 0;
   letter-spacing: 0.5px;
+}
+
+.active-page{
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .logo-container{
@@ -85,7 +90,7 @@ p{
 }
 
 .navigation a:hover {
-  background: #15152b;
+  text-decoration: underline;
 }
 
 .landing-page-top{
@@ -128,7 +133,7 @@ p{
 }
 
 .button:hover {
-   background-color: deepskyblue;
+   background-color: #8377d8;
    color: white;
 }
 
@@ -179,6 +184,8 @@ p{
 .section-subtitle{
   font-size: 35px;
   display: flex;
+  margin-bottom: 0px;
+  height: 84px;
   flex-direction: row;
   justify-content: flex-start;
   
@@ -193,13 +200,12 @@ p{
   margin-right: 10px;
   margin-left: 10px; 
   color: #3E2D77;
-  font-family: Arial;
-}
+  }
 
 .paragraphs{
   text-align: left;
   display: flex;
-  font-size: 25px;
+  font-size: 20px;
   flex-direction: row;
   justify-content: flex-start;
   display: block;
@@ -219,7 +225,7 @@ p{
  display: flex;
  flex-direction: row;
  justify-content: flex-start;
- background-color: deepskyblue;
+ background-color: #8377d8;
 }
 
 .subscribe{
@@ -287,7 +293,7 @@ p{
 
 .icons{
   text-decoration: none;
-  color: #3b5998;
+  color: #8377d8;
 }
 
 .media{
@@ -296,17 +302,17 @@ p{
 }
 
 .facebook-span{
-  color: #3b5998;
+  color: #8377d8;
   font-size: 20px;
 }
 
 .mail{
-  color:deepskyblue;
+  color: #8377d8;
   text-decoration: none;
 }
 
 .mail-span{
-  color: deepskyblue;
+  color: #8377d8;
   font-size:20px;
 }
 
@@ -315,8 +321,12 @@ p{
 }
 
 .insta-span{
-  color: #551a8b;
+  color: #8377d8;
   font-size: 20px;
+}
+
+.insta{
+  color: #8377d8
 }
 
 .delegates-container{
@@ -357,7 +367,7 @@ p{
   flex-direction: column;
   justify-content: flex-start;
   text-transform: uppercase;
-  color: deepskyblue;
+  color: #8377d8;
   font-size: 25px;
   font-weight: bold;
 }
@@ -386,7 +396,7 @@ p{
 
 .apply-text{
   text-transform: uppercase;
-  color: deepskyblue;
+  color: #8377d8;
   font-size: 25px;
   font-weight: bold;
 }
@@ -395,7 +405,7 @@ p{
  
   font: 400 1.4em;
   cursor: pointer;
-  background-color: deepskyblue;
+  background-color: #8377d8;
   color: white;
   border: 2px;
   padding: 15px 32px;
