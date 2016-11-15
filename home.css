@@ -222,7 +222,7 @@ p{
 }
 
 .subscribe-page{
- height: 22em;
+ height: 450px;
  display: flex;
  flex-direction: row;
  justify-content: flex-start;
