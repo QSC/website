@@ -481,8 +481,8 @@ p{
   border-style: dotted;
   border-width: 5px;
   border-color: #8377d8;
-  width: 35%;
-  height: 500px;
+  width: 40%;
+  height: auto;
   margin-right: 75px;
   background-color: white;
 }
@@ -494,8 +494,8 @@ p{
   border-style: dotted;
   border-width: 5px;
   border-color: #8377d8;
-  width: 35%;
-  height: 500px;
+  width: 40%;
+  height: auto;
   background-color: white;
   margin-left: 75px;
 }
