@@ -185,6 +185,7 @@ p{
   flex-direction: row;
   justify-content: center;
   color: #3E2D77;
+  margin: 0px;
 }
 
 .section-subtitle{
@@ -331,7 +332,7 @@ p{
   flex-direction: row;
   justify-content: flex-start;
   width: 100%;
-  height: 25%;
+  height: 30%;
 }
 
 .delegates-container2{
@@ -339,7 +340,7 @@ p{
   flex-direction: row;
   justify-content: flex-end;
   width: 100%;
-  height: 25%;
+  height: 30%;
 }
 
 .delegates-content{
@@ -351,6 +352,7 @@ p{
 }
 
 .delegates-sub{
+  margin-bottom: 10px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -360,6 +362,7 @@ p{
 }
 
 .delegates-head{
+  margin-bottom: 20px; 
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -379,6 +382,19 @@ p{
   -webkit-margin-after: 1em;
   -webkit-margin-before: 1em;
   color: black;
+}
+
+.paragraph2{
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  font-size: 17px;
+  flex-direction: row;
+  justify-content: flex-start;
+  display: block;
+  -webkit-margin-after: 1em;
+  -webkit-margin-before: 1em;
+  color: gray;
 }
 
 .apply{
@@ -577,4 +593,38 @@ p{
   flex-direction: row;
   justify-content: center;
   margin-bottom: 40px;
+}
+
+.picture-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.picture-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 50%;
+  height: 304.8px;
+}
+
+.picture1{
+  display: flex;
+  flex-direction: row;
+}
+
+.picture{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 304.8px;
+  width: 50%;
+}
+
+.picture-info1{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
