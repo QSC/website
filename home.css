@@ -151,6 +151,30 @@ p{
   flex-direction: column;
 }
 
+.next-page2{
+  padding: 4em 1em;
+  background-color: #f7f6ee;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  height: 60%;
+}
+.next-page4{
+  padding: 2em 1em;
+  background-color: #f7f6ee;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.next-page3{
+  padding: 2em 1em;
+  background-color: #f7f6ee;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
 .about-section{
   display: flex;
   flex-direction: row;
@@ -351,6 +375,13 @@ p{
   height: 100%;
 }
 
+.delegates-content2{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+}
+
 .delegates-sub{
   margin-bottom: 10px;
   display: flex;
@@ -371,6 +402,14 @@ p{
   font-size: 25px;
   font-weight: bold;
 }
+
+.delegates-head2{
+  text-transform: uppercase;
+  color: #8377d8;
+  font-size: 25px;
+  font-weight: bold;
+}
+
 
 .paragraph{
   text-align: center;
@@ -595,36 +634,76 @@ p{
   margin-bottom: 40px;
 }
 
+.icon_spons{
+  margin-bottom: 5px;
+  color: #8377d8;
+}
+
+.picture-exec{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+}
+
+.picture-exec2{
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  align-items: center;
+}
+
+.picture-exec3{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
 .picture-container{
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  width: 100%;
+  justify-content: center;
+  height: 300px; 
+  width: 300px;
+  margin: 10px; 
 }
 
-.picture-content{
+.picture-container2{
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  width: 50%;
-  height: 304.8px;
+  justify-content: center;
+  height: 250px; 
+  width: 250px;
+  margin: 10px; 
 }
 
-.picture1{
+.exec-info{
   display: flex;
-  flex-direction: row;
+  justify-content: flex-start;
+  color: gray;
+  margin-left: 10px;
+ font-size: 20px; 
 }
 
-.picture{
+.linkedIn-Exec{
+  color: #006fa6;
   display: flex;
-  flex-direction: row;
   justify-content: flex-start;
-  height: 304.8px;
-  width: 50%;
+  margin-left: 10px;
+  margin-top: 5px;
+  text-decoration: none;
 }
 
-.picture-info1{
+.spons-logo{
+  margin: 10px;
+  max-height: 150px;
+  max-width: 250px;
+}
+
+.spons-container{
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+  flex-direction: column;
+  width: 25%;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
 }
